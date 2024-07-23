@@ -3,31 +3,32 @@
 
 
 *{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(247, 247, 240);
-
+    background-color: rgb(247, 247, 240);    
 }
-
 li, a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(179, 136, 79);
     text-decoration: none;
-
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin: 20px 20px;
 }
 
 .logo{
-    max-width: 150px;
+    max-width: 130px;
     height: auto;
     cursor: pointer;
 }
@@ -49,33 +50,33 @@ header{
     color: rgb(86, 51, 4);
 }
 
-.content{
-    background-color: rgb(251, 250, 235);
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    color: black
-}
+
 .front-information{
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     font-size: 20px;
 }
 
 .login{
     text-align: center;
     padding: 3px 3px;
+    font-size: 1rem;
 }
 
 .button-login {
     display: inline-block;
-    padding: 5px 5%;
-    font-size: 12px;
+    padding: 2px 5%;
+    font-size: 16px;
     color: white;
     background-color: #74b777;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 3px 3px;
     
+}
+
+.button-login:hover{
+    background-color: #558958;
 }
